@@ -8,11 +8,13 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -72,6 +74,23 @@ public class TestBase {
 		}else if(locator.endsWith("_ID")) {
 			driver.findElement(By.id(repo.getProperty(locator))).click();
 		}
+	}
+	
+	public static void keyType(String key, String locator) {
+		if(key.equals("Tab")) {
+			driver.findElement(By.xpath(repo.getProperty(locator))).sendKeys(Keys.TAB);
+		}
+		
+	}
+	
+	public static void select(String locator) {
+		WebElement element = null;
+		if(locator.endsWith("_XPATH")) {
+			element = driver.findElement(By.xpath(locator));
+		}
+		
+		Select select = new Select(element);
+		select.selectByIndex(3);
 	}
 
 }

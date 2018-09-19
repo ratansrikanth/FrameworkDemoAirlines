@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TC01_FlightOneWay">
+      <class name="testcases.TC03_Hotels_BookRoom">
         <methods>
-          <include name="flight_NY_RDM"/>
+          <include name="bookHotel"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.TC01_FlightOneWay -->
-      <class name="testcases.TC02_SelectFlight_NY_RDM">
-        <methods>
-          <include name="setUp"/>
-          <include name="selectFlight_NY_RDM"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testcases.TC02_SelectFlight_NY_RDM -->
+      </class> <!-- testcases.TC03_Hotels_BookRoom -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ratansrikanth.com</groupId>
-	<artifactId>FrameworkDemoAirlines</artifactId>
+	<artifactId>SeleniumFrameworkDemoAirlines</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
 	<name>FrameworkDemoAirlines</name>

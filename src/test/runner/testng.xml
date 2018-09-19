@@ -5,7 +5,7 @@
     <classes>
       <class name="base.TestBase"/>
       <class name="testcases.TC01_FlightOneWay"/>
-      <class name="testcases.TC02_SelectFlight_NY_RDM"/>
+      <class name="testcases.TC02_BookFlight_NY_RDM"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

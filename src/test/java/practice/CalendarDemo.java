@@ -2,6 +2,7 @@ package practice;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.annotations.Test;
 
 import base.TestBase;
@@ -25,6 +26,9 @@ public class CalendarDemo extends TestBase {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@id='DepartDate']")).sendKeys(Keys.ENTER);
 		Thread.sleep(5000);*/
+		
+
+
 	}
 		
 

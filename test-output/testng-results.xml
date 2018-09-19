@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-08T13:10:24Z" name="Default suite" finished-at="2018-09-08T13:10:24Z" duration-ms="81">
+  <suite started-at="2018-09-18T05:41:27Z" name="Default suite" finished-at="2018-09-18T05:41:55Z" duration-ms="28130">
     <groups>
     </groups>
-    <test started-at="2018-09-08T13:10:24Z" name="Default test" finished-at="2018-09-08T13:10:24Z" duration-ms="81">
-      <class name="practice.CalendarDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:practice.CalendarDemo@3098cf3b]" started-at="2018-09-08T13:10:15Z" name="setUp" finished-at="2018-09-08T13:10:24Z" duration-ms="9134" status="PASS">
+    <test started-at="2018-09-18T05:41:27Z" name="Default test" finished-at="2018-09-18T05:41:55Z" duration-ms="28130">
+      <class name="testcases.TC03_Hotels_BookRoom">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC03_Hotels_BookRoom@21b2e768]" started-at="2018-09-18T05:41:12Z" name="setUp" finished-at="2018-09-18T05:41:27Z" duration-ms="15231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test01()[pri:0, instance:practice.CalendarDemo@3098cf3b]" started-at="2018-09-08T13:10:24Z" name="test01" finished-at="2018-09-08T13:10:24Z" duration-ms="12" status="PASS">
+        <test-method signature="bookHotel()[pri:0, instance:testcases.TC03_Hotels_BookRoom@21b2e768]" started-at="2018-09-18T05:41:27Z" name="bookHotel" finished-at="2018-09-18T05:41:55Z" duration-ms="27989" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.CalendarDemo@3098cf3b]" started-at="2018-09-08T13:10:25Z" name="tearDown" finished-at="2018-09-08T13:10:26Z" duration-ms="980" status="PASS">
+        </test-method> <!-- bookHotel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC03_Hotels_BookRoom@21b2e768]" started-at="2018-09-18T05:41:56Z" name="tearDown" finished-at="2018-09-18T05:41:57Z" duration-ms="1437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- practice.CalendarDemo -->
+      </class> <!-- testcases.TC03_Hotels_BookRoom -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
